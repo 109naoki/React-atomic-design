@@ -1,5 +1,5 @@
 import { Header } from "../atoms/layout/Header";
-export const HeaderOnly = () => {
+export const HeaderOnly = (props) => {
   const { children } = props;
   return (
     <>
